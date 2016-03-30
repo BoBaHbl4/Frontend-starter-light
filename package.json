@@ -1,0 +1,25 @@
+{
+  "name": "Frontender",
+  "version": "0.0.1",
+  "devDependencies": {
+    "browser-sync": "^2.11.1",
+    "del": "^2.2.0",
+    "event-stream": "^3.3.2",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^2.0.4",
+    "gulp-concat": "^2.6.0",
+    "gulp-connect": "^2.3.1",
+    "gulp-imagemin": "^2.4.0",
+    "gulp-inject": "^3.0.0",
+    "gulp-less": "^3.0.5",
+    "gulp-print": "^2.0.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglify": "^1.5.2",
+    "gulp-uncss": "^1.0.4",
+    "gulp-util": "^3.0.7",
+    "imagemin-pngquant": "^4.2.0",
+    "merge-stream": "^1.0.0",
+    "path": "^0.12.7"
+  }
+}

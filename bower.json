@@ -1,0 +1,23 @@
+{
+  "name": "Frontend-starter-light",
+  "description": "Starting pack for project (static templates) with default nodejs/bower packages and gulp tasks.",
+  "main": "",
+  "authors": [
+    "Vladimir Econom <BoBaHbl4@gmail.com>"
+  ],
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "jquery": "~2.2.0",
+    "bootstrap": "~3.3.6",
+    "font-awesome": "^4.5.0"
+  }
+}
