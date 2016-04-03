@@ -9,6 +9,7 @@ var inject = require('gulp-inject');
 var concat = require('gulp-concat');
 var print = require('gulp-print');
 var uglify = require('gulp-uglify');
+var ngAnnotate = require('gulp-ng-annotate');
 var sourcemaps = require('gulp-sourcemaps');
 var path = require('path');
 var util = require('gulp-util');
@@ -47,14 +48,14 @@ gulp.task('bootstrap-less-move', function () {
             './bower_components/bootstrap/less/*.*'
 
         ])
-        .pipe(gulp.dest('./dev_root/css/bootstrap/'));
+        .pipe(gulp.dest('./dev_root/css/less/bootstrap/'));
 });
 gulp.task('font-awesome-less-move', function () {
     return gulp.src([
             './bower_components/font-awesome/less/*.*'
 
         ])
-        .pipe(gulp.dest('./dev_root/css/font-awesome/'));
+        .pipe(gulp.dest('./dev_root/css/less/font-awesome/'));
 });
 // -----------------------
 // /End of starting tasks
